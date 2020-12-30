@@ -14,3 +14,6 @@ config/auth.db
 config/has_users
 config/main.cfg
 config/setup
+www/scripts/quill.js
+www/scripts/quilljs-markdown.js
+www/styles/quill.snow.css

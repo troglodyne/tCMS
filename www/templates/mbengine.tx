@@ -9,6 +9,9 @@
     </div>
 </div>
 <script type="text/javascript" src="/scripts/fgEmojiPicker.js"></script>
+<script type="text/javascript" src="/scripts/quill.js"></script>
+<script type="text/javascript" src="/scripts/quilljs-markdown.js"><script>
+<link href="/styles/quill.snow.css" rel="stylesheet">
 <script type="text/javascript">
 new FgEmojiPicker({
     trigger: ['button.emojiPicker'],
@@ -18,5 +21,11 @@ new FgEmojiPicker({
         const emoji = obj.emoji;
         document.querySelector('textarea').value += emoji;
     }
+});
+document.addEventListener('DOMContentLoaded', () => {
+    var quill = new Quill('textarea[name=data]', {
+        theme: 'snow'
+    });
+    new QuillMarkdown(quill);
 });
 </script>

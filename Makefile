@@ -33,3 +33,6 @@ depend:
 	cpanm Mojo::File Date::Format WWW::SitemapIndex::XML WWW::Sitemap::XML HTTP::Body Pod::Html URL::Encode
 	wget -O www/scripts/fgEmojiPicker.js https://github.com/woody180/vanilla-javascript-emoji-picker/raw/master/fgEmojiPicker.js
 	wget -O www/scripts/full-emoji-list.json https://github.com/woody180/vanilla-javascript-emoji-picker/raw/master/full-emoji-list.json
+	wget -O www/scripts/quill.js https://cdn.quilljs.com/1.3.6/quill.js
+	wget -O www/scripts/quilljs-markdown.js https://cdn.jsdelivr.net/npm/quilljs-markdown@latest/dist/quilljs-markdown.js
+	wget -O www/styles/quill.snow.css https://cdn.quilljs.com/1.3.6/quill.snow.css
